@@ -63,6 +63,10 @@ body {
   height:6px;
 }
 
+.face__hand--transition {
+  transition: none;
+}
+
 .face__hand--hour {
   width: 40%;
   left: calc(50% - 40%);
@@ -72,7 +76,7 @@ body {
   height: 2px
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
   .clock {
     width: 20rem;
     height: 20rem;
